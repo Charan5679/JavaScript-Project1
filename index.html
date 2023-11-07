@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <input type="text" id="num1" value="20" >
+    <select id="operator">
+        <option>+</option>
+        <option>-</option>
+        <option>%</option>
+        <option>/</option>
+    </select>
+    <input type="text" id="num2" value="60" >
+    <button>click me</button>
+    <h4 id="Title">hello</h4>
+    <script>
+      var num1 = +(document.getElementById("num1").value)
+      var num2 =+(document.getElementById("num2").value)
+     var result=num1+num2;
+     console.log(result)
+     document.getElementById("Title").innerHTML = "Result = " + result
+     </script>
+     <script>
+     var num1 = +(document.getElementById("num1").value)
+     var num2 =+(document.getElementById("num2").value)
+    var result=num1-num2;
+    console.log(result)
+    document.getElementById("Title").innerHTML = "Result = " + result
+    </script>
+     
+      
+</body>
+</html>
